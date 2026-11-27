@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sample Care Pharmacy</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="wrap"><strong>✚ Sample Care Pharmacy</strong><nav><a href="#products">Products</a><a href="#enquiry">My list</a><a href="#visit">Visit</a></nav></div></header>
+<main class="wrap">
+<div class="hero"><h1>Medicines and health essentials, close to home</h1>
+<p>Pick what you need and show your list at our counter.</p>
+<a href="#products">See products</a></div>
+<p class="note">Sample website. The name, products, prices and contact details are placeholders.</p>
+
+<h2>How it works</h2>
+<ol class="steps"><li><strong>Choose</strong><br>Tap "Add" on what you need.</li><li><strong>Check</strong><br>See your list and total.</li><li><strong>Collect</strong><br>Show or send the list to our counter.</li></ol>
+
+<section id="products"><h2>Products</h2>
+<div class="tools"><input id="search" type="search" placeholder="🔍 Search products" aria-label="Search products"><span id="chips" class="tools" style="margin:0"></span></div>
+<div class="grid" id="grid"></div></section>
+
+<section id="enquiry"><h2>🛒 My list</h2>
+<div class="slip"><div id="list"></div><p class="price" id="total"></p>
+<button id="copy">Copy list</button> <button id="clear" class="chip">Clear</button> <span id="status" role="status"></span></div>
+<p class="note">This does not place an order. Prescription medicines need a valid prescription, checked by the pharmacist.</p></section>
+
+<section><h2>Services</h2><ul class="steps" style="counter-reset:none"><li class="svc">💊 Prescription medicines</li><li class="svc">🩺 Blood pressure check</li><li class="svc">🛵 Local home delivery</li></ul></section>
+
+<section id="visit"><h2>📍 Visit us</h2>
+<p>Address: [Shop number, street, city, PIN]<br>Phone: [Your phone number]<br>Hours: [Opening hours]<br>Drug licence number: [Your licence number]</p></section>
+</main>
+<footer><div class="wrap note">This site does not give medical advice. Ask a doctor or pharmacist.</div></footer>
+<script src="script.js"></script>
+</body>
+</html>
